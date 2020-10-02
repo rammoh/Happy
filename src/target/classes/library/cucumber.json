@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1365332,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User login the applciation and verify user name in the header",
+        "description": "",
+        "id": "end-to-end-test-cases-for-amazon-application;user-login-the-applciation-and-verify-user-name-in-the-header",
+        "after": [
+          {
+            "result": {
+              "duration": 279652,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67575049206,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launch the applciation",
+            "match": {
+              "location": "StepDefinition.user_launch_the_applciation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3004186431,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User wait for \u00273\u0027 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinition.user_wait_for_seconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2819906022,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User moushover to the Hello sign in",
+            "match": {
+              "location": "StepDefinition.user_moushover_to_the_Hello_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000512463,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User wait for \u00273\u0027 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinition.user_wait_for_seconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2830942766,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on sign in button on ajax call",
+            "match": {
+              "location": "StepDefinition.user_click_on_sign_in_button_on_ajax_call()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 813968405,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter the username \u00278122447745\u0027 in the emailid/mobile number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8122447745",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_username_in_the_emailid_mobile_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1794802741,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on continue button",
+            "match": {
+              "location": "StepDefinition.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175684938,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User verify the entered mobile number \u0027+918122447745\u0027 displays on the mobile number feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+918122447745",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinition.user_verify_the_entered_mobile_number_displays_on_the_mobile_number_feild(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 398395920,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the password \u00278148181640\u0027 in the password feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8148181640",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_password_in_the_password_feild(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30673525172,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on login button",
+            "match": {
+              "location": "StepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000266667,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User wait for \u00275\u0027 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinition.user_wait_for_seconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1269219460,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User verify the username \u0027Hello, harish\u0027 in the header page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello, harish",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinition.user_verify_the_username_Hello_harish_in_the_header_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@LoginScenario"
+          }
+        ]
+      }
+    ],
+    "name": "End to End test cases for Amazon application",
+    "description": "Contains test scenarios includes login the application, search product",
+    "id": "end-to-end-test-cases-for-amazon-application",
+    "keyword": "Feature",
+    "uri": "AmazonLogin.feature"
+  }
+]

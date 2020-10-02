@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "verify the user login the application with valid credentials",
+        "description": "",
+        "id": "login-functionality-module-of-automation-practise-web-page;verify-the-user-login-the-application-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3102295100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to the application",
+            "match": {
+              "location": "stepDefinition.user_navigates_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 635432200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the valid usernames",
+            "match": {
+              "location": "stepDefinition.user_enter_the_valid_usernames()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 254546600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the valid passwords",
+            "match": {
+              "location": "stepDefinition.user_enter_the_valid_passwords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2626992600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click the signin buttons",
+            "match": {
+              "location": "stepDefinition.user_click_the_signin_buttons()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sce1"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality module of automation practise web page",
+    "description": "conatins E2E functionality such as login, add a product to card,place order,\n and signout",
+    "id": "login-functionality-module-of-automation-practise-web-page",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/cucumber/feature/loginAdactin.feature"
+  }
+]
